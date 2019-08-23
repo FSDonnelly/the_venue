@@ -124,6 +124,7 @@ footer .footer_copyright {
   display: flex;
   background: #d93d00;
   padding: 10px 20px;
+  height: 15vh;
 }
 
 .countdown_wrapper .countdown_time {
