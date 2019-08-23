@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 
+import MyButton from '../utils/MyButton';
+
 class Discount extends Component {
   state = {
     discountStart: 0,
@@ -42,7 +44,12 @@ class Discount extends Component {
                 sapiente non deleniti quas. Consectetur illo ipsa optio ducimus
                 iusto rerum sit.
               </p>
-              <button>Button</button>
+              <MyButton
+                text='Purchase Tickets'
+                bck='#ffa800'
+                color='#ffffff'
+                link='https://www.vividseats.com/concerts/chance-the-rapper-tickets/chance-the-rapper-pechanga-arena-9-18-3196027.html'
+              />
             </div>
           </Slide>
         </div>
