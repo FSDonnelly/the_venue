@@ -10,8 +10,10 @@ const SideDrawer = ({ open, onClose }) => {
     scroller.scrollTo(element, {
       duration: 1500,
       delay: 100,
-      smooth: true
+      smooth: true,
+      offset: -100
     });
+    onClose(false);
   };
 
   return (
